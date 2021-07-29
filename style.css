@@ -524,13 +524,13 @@
   .cartbody {
       margin-left:10px;
       height:120px;
-      width:370px; 
+      width:300px; 
     
       
   }
   
   .text{
-      font-size:10pt;
+      font-size:20pt;
       margin-top:12px;
       margin-left: 5px;
   }
