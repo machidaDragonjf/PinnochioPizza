@@ -522,7 +522,7 @@
       
       }
   .cartbody {
-      margin-left:10px;
+      margin-left:20px;
       height:120px;
       width:300px; 
     
@@ -530,7 +530,7 @@
   }
   
   .text{
-      font-size:20pt;
+      font-size:10pt;
       margin-top:12px;
       margin-left: 5px;
   }
