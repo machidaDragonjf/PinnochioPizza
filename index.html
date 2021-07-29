@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css"></link>
+
+    <title>Pinocchio's Pizza</title>
+  </head>
+  <body>
+<section>
+   <!-- Just an image -->
+
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Pinnochio's Pizza</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#pie">Pies <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#drinks">Beverages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#appetizers">Appetizers</a>
+        </li>
+     
+      </ul>
+     <button class="cart">My Cart</button>
+     <div class="cartbody hidden" style="border:5px solid black; border-radius:10%">
+   <div class="text">
+      <span>Cheese Pizzas  :</span><span class="cheso"> 0</span>
+    <span>Pepperonni Pizzas  :</span><span class="pepo"> 0</span>
+    <span>Combination Pizzas  :</span><span class="combo"> 0</span>
+    <span>Garlic Twists  :</span><span class="twisto"> 0</span>
+    <span>Salads  :</span><span class="salado"> 0</span>
+    <span>Calzones  :</span><span class="calo"> 0</span>
+    <span>Becks Pitchers  :</span><span class="becko"> 0</span>
+    <span>Bud Pitchers  :</span><span class="budo"> 0</span>
+    <span>Samuel Pitchers  :</span><span class="samo"> 0</span>
+  <span>SubTotal $</span><span class="subtotal">0</span>
+   </div>
+     </div>
+      <img class="img1" src="/images/pi.jpg" height=90px alt="">
+    
+    </div>
+  </nav>
+  <section class="jumbotron">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container-fluid">
+        
+            <img class="img2" src="/images/pizza.jpg"  alt="">
+          
+        </div>
+      </div>
+  </section>
+<section class="container-fluid">
+  
+  <div class="row" style="margin-top:100px">
+    <div class="col">
+    <h1 style=" margin-left:200px;margin-top:10px;">Pinochicco's Pizzas</h1>
+    </div>
+    <div class="col">
+    <img class="img1" src="/images/pi2.jpg" style="height:300px;margin-right:auto;margin-bottom:50px;" alt="">
+    </div>
+  </div>
+<div id="pie"></div>
+</section>
+<section class="cheeseSection">
+    <div class="row">
+        <div class="col">
+    <img class="chee" src="images/cheese.jpg" class="img-fluid"style="margin-left:80px; width:700px border: 16px solid #ce4213
+    " alt="Responsive image">
+        </div>
+    <div class="col" style="border: 16px solid #5e6573
+
+    ;border-radius:5%;margin-left:40px;width:700px;">
+        <h2 class=CheTitle>Four Cheese Pizza</h2>
+        <p> Our handmade cheese pizza is made of an <br>
+            incredible crust cooked to a crisp golden<br>
+             brown and topped with our incredible <br>
+             red sauce with our secret spices and <br>
+             amazing four cheese  award winning <br>
+             combination of Romano, Parmesano Ressiano <br>
+             ,Mozzarella and Fontina.
+             <br>
+             12 Inch Four Cheese Pizza, $17.00 
+        </p>
+     </div>
+    </div>
+</section>
+<section class="cheeseButtons">
+     <div class="row">
+       <div class="col">
+<button class="addCheese">Add 1 Four Cheese Pizza</button>
+</div>
+<div class="col">
+<button class="removeCheese">Remove 1 four Cheese Pizza</button>
+       </div>
+     </div>
+</section>
+ 
+<section class="pepperoniSection">
+  <div class="row">
+ 
+  <div class="col" style="border: 16px solid #5e6573
+
+  ;border-radius:5%;margin-left:90px;width:700px; ">
+      <h2 class=CheTitle>Pepperonoi Pizza</h2>
+      <p> You like Pepperoni pizza? So do  <br> 
+      we. Crunchy crust golden brown and  <br> 
+      topped  with our testy pepperoni,  <br> 
+      Mouth watering and delicious. You'll  <br> 
+      savor every bite.  topped with a  <br>
+      blend of Regianno Parmesan and Romano  <br>
+      and our signature red sauce.     <br>
+      
+      12 Inch Peperroni Cheese Pizza, $22.00 
+      </p>
+   </div>
+   <div class="col">
+    <img class="chee" src="images/pep.jpg" class="img-fluid"style="margin-left:40px; width:600px;border: 16px solid #ce4213
+    " alt="Responsive image">
+        </div>
+  </div>
+</section>
+<section class="cheeseButtons">
+   <div class="row">
+     <div class="col">
+<button class="addPepperoni">Add 1 Pepperoni Pizza</button>
+</div>
+<div class="col">
+<button class="removePepperoni">Remove 1 Pepperoni Pizza</button>
+     </div>
+   </div>
+</section>
+
+<section class="CombinationSection">
+  <div class="row">
+      <div class="col">
+  <img class="chee" src="images/every.jpg" class="img-fluid"style="margin-left:70px; border: 16px solid #ce4213
+  " alt="Responsive image">
+      </div>
+  <div class="col" style="border: 16px solid #5e6573
+
+  ;border-radius:5%;margin-left:50px;width:700px; ">
+    <h2 class=CheTitle>Combination Pizza</h2>
+    <p> Our combination pizza is made of a crispy crust<br> 
+    cooked perfectly and topped with our sausage, <br>
+    red peppers, onions, linguica, pepperoni, red <br>
+    sauce with our secret spices and lots of <br>
+    Parmesan, mozzarella and Romano cheeses<br>
+           
+    12 Inch Combination, $26.00 
+      </p>
+   </div>
+  </div>
+</section>
+<section class="cheeseButtons">
+   <div class="row">
+     <div class="col">
+<button class="addCombination">Add 1 Combination Pizza</button>
+</div>
+<div class="col">
+<button class="removeCombination">Remove 1 combination  Pizza</button>
+     </div>
+   </div>
+</section>
+<div id="appetizers"></div>
+<section class="appetizers">
+  <div class="row">
+<div class="col">
+  <h2 class="app"  style="margin-left:200px;margin-top:70px"> Pinocchio's Appetizers</h2>
+</div>
+<div class="col">
+  <img class="img1" src="/images/p6.png" style="height:300px;margin-right:auto" alt="">
+</div>
+  </div>
+
+</section>
+<section class="appetizersBody">
+  <div class="row">
+      <div class="col">
+  <img class="chee" src="images/garlic2.jpg" class="img-fluid"style="margin-left:70px; border: 16px solid #ce4213
+  " alt="Responsive image">
+      </div>
+  <div class="col" style="border: 16px solid #5e6573
+
+  ;border-radius:5%;margin-left:40px;width:700px; ">
+    <h2 class=CheTitle>Garlic Twists</h2>
+    <p> Love Garlic Twists? So do we We hand make<br>
+    our delicious twists with just the right amount <br>
+    of butter and real garlic, then top them with<br>
+    our Parmesan crumbs.They're incredible<br>
+           
+    6 twists, $7.00 
+      </p>
+   </div>
+  </div>
+</section>
+<section class="cheeseButtons">
+   <div class="row">
+     <div class="col">
+<button class="addGarlic">Add 1 order of Garlic Twists</button>
+</div>
+<div class="col">
+<button class="removeGarlic">Remove 1 order of Garlic twists</button>
+     </div>
+   </div>
+</section>
+</section>
+<section class="salad">
+  <div class="row">
+ 
+  <div class="col" style="border: 16px solid #5e6573
+
+  ;border-radius:5%;margin-left:80px;width:700px ">
+      <h2 class=CheTitle>crisp Gardern Salad</h2>
+      <p> Our garden salad is a wonderful <br>
+      addition to your order. It contains  <br> 
+     Romain lettuce, Onoins,tomatoes,  <br> 
+      avocado, and your choice of dressing <br> 
+      Select from a balsalmic vinagerette, <br>
+      classic Caeser, or homemade Ranch  <br>
+      Fresh Garden Salad,  $7
+    </p>
+   </div>
+   <div class="col">
+    <img class="chee" src="images/sal.jpg" class="img-fluid"style="margin-left:50px; border: 16px solid #ce4213
+    " alt="Responsive image">
+        </div>
+  </div>
+</section>
+<section class="cheeseButtons">
+   <div class="row">
+     <div class="col">
+<button class="addSalad">Add 1 Garden Salad</button>
+</div>
+<div class="col">
+<button class="removeSalad">Remove 1 Garden Salad</button>
+     </div>
+   </div>
+</section>
+<section class="Calzone">
+  <div class="row">
+      <div class="col">
+  <img class="chee" src="images/calzone.jpg" class="img-fluid"style="margin-left:-30px; border: 16px solid #ce4213
+  " alt="Responsive image">
+      </div>
+  <div class="col" style="border: 16px solid #5e6573
+
+  ;border-radius:5%;margin-left:50px; width:700px;">
+    <h2 class=CheTitle>Calzone</h2>
+    <p> Our tasty Calzone is a great<br>
+    lunch for anyone. It is a pizza <br>
+    folded over and baked to perfection<br>
+    Its stuffed with cheese,sauce and<br>
+     pepperoni.<br>
+           
+    Calzone, $13.00 
+      </p>
+   </div>
+  </div>
+</section>
+<section class="cheeseButtons">
+   <div class="row">
+     <div class="col">
+<button class="addCalzone">Add 1 Calzone </button>
+</div>
+<div class="col">
+<button class="removeCalzone">Remove 1 Calzone </button>
+     </div>
+   </div>
+</section>
+
+<div id="drinks"></div>
+<section class="Drinks">
+  <div class="row">
+<div class="col">
+  <h2 class="app"  style="margin-left:200px;margin-top:70px"> Pinocchio's Drinks & Brews</h2>
+</div>
+<div class="col">
+  <img class="img1" src="/images/p12.jpg" style="height:300px;margin-right:auto" alt="">
+</div>
+  </div>
+</section>
+<section class="Becks">
+  <div class="row">
+      <div class="col">
+  <img class="chee" src="images/sams.jpg" class="img-fluid"style="margin-left:-40px; border: 16px solid #ce4213
+  " alt="Responsive image">
+      </div>
+  <div class="col" style="border: 16px solid #5e6573
+
+  ;border-radius:5%;margin-left:30px; width:700px;">
+    <h2 class=CheTitle>Samuel Adams</h2>
+    <p> Although Pinocchio doesn't drink alchohol<br>
+    Gepeto sure does! Join him with a Samuel <br>
+    Adams pitcher of brew.
+           
+    Samuel Adams Pitcher, $12.00 
+      </p>
+   </div>
+  </div>
+</section>
+<section class="cheeseButtons">
+   <div class="row">
+     <div class="col">
+<button class="addSamuel">Add 1 pitcher of Sam's Brew</button>
+</div>
+<div class="col">
+<button class="removeSamuel">Remove pitcher of Sam's Brew</button>
+     </div>
+   </div>
+</section>
+<section class="Becks">
+  <div class="row">
+    <div class="col" style="border: 16px solid #5e6573
+
+    ;border-radius:5%;margin-left:-15px;width:700px; ">
+      <h2 class=CheTitle>Beck's Beer</h2>
+      <p> For a taste of Germany try our <br>
+        incredibly smooth Becks beer. It <br> 
+        goes great with any meal and it <br>
+        taste so refreshing.
+             
+      Becks Pitcher, $13.00 
+        </p>
+     </div>
+      <div class="col">
+  <img class="chee" src="images/becks4.jpg" class="img-fluid"style="margin-left:40px; border: 16px solid #ce4213
+  " alt="Responsive image">
+      </div>
+
+  </div>
+</section>
+<section class="cheeseButtons">
+   <div class="row">
+     <div class="col">
+<button class="addBecks">Add 1 pitcher of Becks Brew</button>
+</div>
+<div class="col">
+<button class="removeBecks">Remove pitcher of Becks Brew</button>
+     </div>
+   </div>
+</section>
+<section class="Budweiser">
+  <div class="row">
+    <div class="col">
+      <img class="chee" src="images/bud.jpg" class="img-fluid"style="margin-left:-50px; border: 16px solid #ce4213
+      " alt="Responsive image">
+          </div>
+    <div class="col" style="border: 16px solid #5e6573
+
+    ;border-radius:5%;margin-left:50px;width:700px; ">
+      <h2 class=CheTitle>Budweiser </h2>
+      <p> If you like traditional beer with <br>
+        flavor try a refreshing pitcher of <br>
+        budweiser beer. It's crisp and clean<br>
+        and goes great with our pizza. 
+             
+      Budweiser Pitcher, $11.00 
+        </p>
+     </div>
+    </section>
+     <section class="cheeseButtons">
+      <div class="row">
+        <div class="col">
+   <button class="addBudweiser">Add pitcher of Budweiser Brew</button>
+   </div>
+   <div class="col">
+   <button class="removeBudweiser">Remove pitcher, Budweiser Brew</button>
+        </div>
+      </div>
+   </section>
+
+  <section class="order">
+    <div class="row">
+      <div class="col">
+      <div class="b"> <div class="total1">Total before Tax</div>
+      <div class=totalB>Total Price</div>
+    <div class="total2">No items in cart</div>
+      </div>
+    </div>
+  <div class="col">
+      <img  class="face" src="images/pino.png" height="80px"; width="80px"; alt="faces">
+       </div>
+    </div>
+  </section>
+  <section class="final">
+    <div class="row">
+    <div class="col">
+      <img class="gip" src="images/g.jpg" class="img-fluid"style="margin-top:50px; margin-left:110px; border: 16px solid #ce4213
+      " alt="Responsive image">
+          </div>
+    
+    <div class="col" style="border: 16px solid #5e6573
+
+    ;border-radius:5%;margin-left:80px;margin-right:130px;margin-top:50px; ">
+      <h2 class=CheTitle>Finalize Order </h2>
+      <button class="finalize">Total my Order</button>
+      <button class="payBill">Pay my Bill</button>
+      <button class="reset">Reset My Order</button>
+      <p style="margin-top:10px;">Pinocchio's Pizza 828-312-4545,
+        1243 Candy Lane, Los Angeles CA 91602 <br>
+        We accept all major Credit Cards.
+      </p>
+     </div>
+    </div>
+  </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="index.js"></script>
+  </body>
+</html>
